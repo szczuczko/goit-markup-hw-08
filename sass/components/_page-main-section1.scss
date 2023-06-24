@@ -1,0 +1,59 @@
+// Pierwsza sekcja
+.first-section {
+  max-width: 1600px;
+  display: flex;
+  justify-content: center;
+  padding-top: 94px;
+  background-color: var(--almost-white);
+}
+
+.first-section-logo-list {
+  max-width: 1200px;
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 0;
+  gap: 30px;
+  margin-bottom: 30px;
+}
+
+.first-section-logo {
+  width: 270px;
+  height: 120px;
+  background: var(--light-gray);
+  border-radius: 4px;
+}
+
+.first-section-list {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+  text-align: justify;
+  padding: 0;
+  color: var(--gray);
+  font-size: 14px;
+  line-height: 1.7142em;
+  letter-spacing: 0.03em;
+}
+
+.list {
+  width: 270px;
+}
+
+.h4 {
+  color: var(--almost-black);
+  text-align: left;
+  margin-bottom: 10px;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.1428em;
+  text-transform: uppercase;
+
+  &:hover,
+  .list p:hover {
+    text-decoration: underline solid var(--blue);
+  }
+}

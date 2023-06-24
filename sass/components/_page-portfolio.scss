@@ -1,0 +1,79 @@
+.pf-section {
+  max-width: 1600px;
+  display: flex;
+  justify-content: center;
+  background-color: $almost-white;
+
+  &-item {
+    flex-wrap: wrap;
+    justify-content: center;
+    list-style: none;
+    font-size: 16px;
+    line-height: 1.875em;
+    letter-spacing: 0.03em;
+    gap: 30px;
+    padding: 0 0 94px 0;
+  }
+
+  li {
+    background: $white;
+    border: 1px solid $border-pf-li;
+
+    &:hover {
+      box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12),
+        0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
+    }
+  }
+
+  p {
+    padding-inline: 24px;
+  }
+
+  .h2-pf-section {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2em;
+    letter-spacing: 0.06em;
+    padding-inline: 24px;
+  }
+
+  // Wyjeżdżający opis na img
+  .pf-img-discription {
+    position: relative;
+
+    &::before {
+      content: "";
+      position: absolute;
+      bottom: 0;
+      width: 100%;
+      height: 0;
+      background: rgba(33, 150, 243, 0.9);
+      transition: height 0.25s ease;
+    }
+
+    &:hover::before {
+      height: 100%;
+    }
+
+    p {
+      position: absolute;
+      bottom: 0;
+      width: 100%;
+      height: 100%;
+      color: $white;
+      opacity: 0;
+      font-size: 18px;
+      line-height: 1.5555;
+      letter-spacing: 0.03em;
+      text-align: left;
+      transition: opacity 0.25s ease;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    &:hover p {
+      opacity: 1;
+    }
+  }
+}

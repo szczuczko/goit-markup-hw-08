@@ -1,0 +1,104 @@
+.page-header {
+  max-width: $pageWidth;
+  height: 80px;
+  display: flex;
+  border-bottom: 1px solid $borderHeader;
+
+  &__container {
+    display: flex;
+  }
+
+  &__navigation {
+    display: flex;
+    align-items: center;
+    gap: 93px;
+  }
+
+  &__page-links-list {
+    list-style: none;
+    display: inherit;
+    gap: 46px;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.1428em;
+    letter-spacing: 0.02em;
+  }
+
+  &__contact-links {
+    list-style: none;
+    align-items: center;
+    display: flex;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.1428em;
+    list-style: none;
+    letter-spacing: 0.02em;
+    margin-left: auto;
+  }
+}
+
+.page-link {
+  &__link {
+    text-decoration: none;
+    color: $black;
+
+    &:hover,
+    :focus {
+      text-decoration: underline solid $blue;
+    }
+
+    &--current {
+      color: $blue;
+      position: relative;
+    }
+
+    &--current::after {
+      content: "";
+      position: absolute;
+      inset: 44px 0 auto;
+      height: 4px;
+      border-radius: 4px;
+      background-color: $blue;
+    }
+  }
+}
+
+.contact-link {
+  &__icon-mail {
+    width: 20px;
+    height: 16px;
+    margin-right: 10px;
+    fill: $blue;
+  }
+
+  &__icon-phone {
+    width: 20px;
+    height: 32px;
+    margin-right: 10px;
+    fill: $gray;
+  }
+
+  &__icon-mail:hover {
+    fill: $buttonBlue;
+  }
+
+  &__icon-phone:hover {
+    fill: $blue;
+  }
+
+  &__mail {
+    color: $blue;
+    text-decoration: none;
+    margin-right: 30px;
+  }
+
+  &__phone {
+    color: $gray;
+    text-decoration: none;
+  }
+
+  &__mail:hover,
+  &__phone:hover {
+    text-decoration: underline solid $blue;
+  }
+}

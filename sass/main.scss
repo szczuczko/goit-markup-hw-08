@@ -1,0 +1,15 @@
+@use "./utils/colors" as *;
+@use "./utils/vars" as *;
+@import "./components/resets";
+@import "./components/golbal-styles";
+@import "./components/page-header";
+@import "./components/logo";
+@import "./components/page-main-head";
+@import "./components/page-main-section1";
+@import "./components/page-main-section2";
+@import "./components/page-main-section3";
+@import "./components/page-main-section4";
+@import "./components/modal";
+@import "./components/footer";
+@import "./components/page-portfolio";
+@import "./components/_page-portfolio-menu";

@@ -1,0 +1,396 @@
+<!DOCTYPE html>
+<html lang="pl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="Moja praca domowa nr 1" />
+    <title>Homework 8</title>
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css"
+      integrity="sha512-4xo8blKMVCiXpTaLzQSLSw3KFOVPWhm/TRtuPVc4WG6kUgjH6J03IBuG7JZPkcWMxJ5huwaBpOpnwYElP/m6wg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <link href="./css/main.min.css" rel="stylesheet" />
+  </head>
+  <body>
+    <!--Nagłówek strony-->
+    <header class="page-header">
+      <div class="page-header__container container">
+        <nav class="page-header__navigation">
+          <!--Logo w nagłówku-->
+          <a class="navigation__home-link home-link" href="./index.html"
+            ><span class="home-link__blue">Web</span>Studio</a
+          >
+
+          <!--Menu nawigacyjne-->
+
+          <menu class="page-header__page-links-list">
+            <li class="page-links-list__page-link page-link">
+              <a class="page-link__link" href="./index.html">Agencja</a>
+            </li>
+            <li class="page-links-list__page-link page-link">
+              <a
+                class="page-link__link page-link__link--current"
+                href="./portfolio.html"
+                >Portfolio</a
+              >
+            </li>
+            <li><a class="page-link__link" href="#">Kontakt</a></li>
+          </menu>
+        </nav>
+
+        <!-- Linki w nagłówku -->
+        <ul class="page-header__contact-links contact-link">
+          <li>
+            <a href="mailto:info@devstudio.com">
+              <svg class="contact-link__icon-mail">
+                <use href="./images/icons.svg#icon-envelope" y="2"></use>
+              </svg>
+            </a>
+          </li>
+          <li>
+            <a class="contact-link__mail" href="mailto:info@devstudio.com"
+              >info@devstudio.com</a
+            >
+          </li>
+          <li>
+            <a href="tel:+48111111111">
+              <svg class="contact-link__icon-phone">
+                <use href="./images/icons.svg#icon-smartphone" y="2"></use>
+              </svg>
+            </a>
+          </li>
+          <li>
+            <a class="contact-link__phone" href="tel:+48111111111"
+              >+48 111 111 111</a
+            >
+          </li>
+        </ul>
+      </div>
+    </header>
+
+    <!--Główna zawartość strony-->
+    <main>
+      <!--Menu strony-->
+      <div class="pf-menu">
+        <ul class="pf-button-menu">
+          <li>
+            <button class="pf-button-blue" type="button">Wszytkie</button>
+          </li>
+          <li>
+            <button class="pf-button pf-button-1" type="button">Strony</button>
+          </li>
+          <li>
+            <button class="pf-button pf-button-2" type="button">
+              Aplikacje
+            </button>
+          </li>
+          <li>
+            <button class="pf-button pf-button-3" type="button">Dizajn</button>
+          </li>
+          <li>
+            <button class="pf-button pf-button-4" type="button">
+              Marketing
+            </button>
+          </li>
+        </ul>
+      </div>
+
+      <!--Zawartość główna strony-->
+      <!--Pierwszy rząd-->
+      <section class="pf-section">
+        <div class="container">
+          <ul class="pf-section-item">
+            <li>
+              <div class="pf-img-discription">
+                <img
+                  src="./images/portfolio1_1.jpg"
+                  alt="Komputer z otwartą stroną internetową"
+                  width="370"
+                  height="294"
+                />
+                <p>
+                  Technocrack jest popularną platformą wykorzystywaną do
+                  rozpowszechniania koronawirusa. Firmy wykorzystują tę
+                  platformę do celów szpiegowskich i ataków na niezabezpieczone
+                  serwery konkurencji
+                </p>
+              </div>
+              <h2 class="h2-pf-section">Technocrack</h2>
+              <p>Strona internetowa</p>
+            </li>
+            <li>
+              <div class="pf-img-discription">
+                <img
+                  src="./images/portfolio1_2.jpg"
+                  alt="Dwuch zawodników koszykówki walczy o piłkę"
+                  width="370"
+                  height="294"
+                />
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Tenetur, velit quam nostrum repudiandae harum quidem
+                  reprehenderit? Suscipit, incidunt. Hic sit porro eveniet vitae
+                  aperiam quas eligendi accusantium minima, quos perferendis.
+                </p>
+              </div>
+              <h2 class="h2-pf-section">Grafika New Orlean vs Golden Star</h2>
+              <p>Dizajn</p>
+            </li>
+            <li>
+              <div class="pf-img-discription">
+                <img
+                  src="./images/portfolio1_3.jpg"
+                  alt="Logo restauracji The Seafood"
+                  width="370"
+                  height="294"
+                />
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Tenetur, velit quam nostrum repudiandae harum quidem
+                  reprehenderit? Suscipit, incidunt. Hic sit porro eveniet vitae
+                  aperiam quas eligendi accusantium minima, quos perferendis.
+                </p>
+              </div>
+              <h2 class="h2-pf-section">Restauracja Seafood</h2>
+              <p>Aplikacja</p>
+            </li>
+            <li>
+              <div class="pf-img-discription">
+                <img
+                  src="./images/portfolio2_1.jpg"
+                  alt="Czarne słuchwki bezprzewodowe"
+                  width="370"
+                  height="294"
+                />
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Tenetur, velit quam nostrum repudiandae harum quidem
+                  reprehenderit? Suscipit, incidunt. Hic sit porro eveniet vitae
+                  aperiam quas eligendi accusantium minima, quos perferendis.
+                </p>
+              </div>
+              <h2 class="h2-pf-section">Projekt Prime</h2>
+              <p>Marketing</p>
+            </li>
+            <li>
+              <div class="pf-img-discription">
+                <img
+                  src="./images/portfolio2_2.jpg"
+                  alt="Dwa pudełka w dwuch kolorach i rozmiarach"
+                  width="370"
+                  height="294"
+                />
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Tenetur, velit quam nostrum repudiandae harum quidem
+                  reprehenderit? Suscipit, incidunt. Hic sit porro eveniet vitae
+                  aperiam quas eligendi accusantium minima, quos perferendis.
+                </p>
+              </div>
+              <h2 class="h2-pf-section">Projekt Boxes</h2>
+              <p>Aplikacja</p>
+            </li>
+            <li>
+              <div class="pf-img-discription">
+                <img
+                  src="./images/portfolio2_3.jpg"
+                  alt="Monitor z otwartą stroną internetową"
+                  width="370"
+                  height="294"
+                />
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Tenetur, velit quam nostrum repudiandae harum quidem
+                  reprehenderit? Suscipit, incidunt. Hic sit porro eveniet vitae
+                  aperiam quas eligendi accusantium minima, quos perferendis.
+                </p>
+              </div>
+              <h2 class="h2-pf-section">Inspiration has no Borders</h2>
+              <p>Strona internetowa</p>
+            </li>
+            <li>
+              <div class="pf-img-discription">
+                <img
+                  src="./images/portfolio3_1.jpg"
+                  alt="Otwarta książka"
+                  width="370"
+                  height="294"
+                />
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Tenetur, velit quam nostrum repudiandae harum quidem
+                  reprehenderit? Suscipit, incidunt. Hic sit porro eveniet vitae
+                  aperiam quas eligendi accusantium minima, quos perferendis.
+                </p>
+              </div>
+              <h2 class="h2-pf-section">Magazyn Limited Edition</h2>
+              <p>Dizajn</p>
+            </li>
+            <li>
+              <div class="pf-img-discription">
+                <img
+                  src="./images/portfolio3_2.jpg"
+                  alt="Zawieszka reklamowa"
+                  width="370"
+                  height="294"
+                />
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Tenetur, velit quam nostrum repudiandae harum quidem
+                  reprehenderit? Suscipit, incidunt. Hic sit porro eveniet vitae
+                  aperiam quas eligendi accusantium minima, quos perferendis.
+                </p>
+              </div>
+              <h2 class="h2-pf-section">Projekt LAB</h2>
+              <p>Marketing</p>
+            </li>
+            <li>
+              <div class="pf-img-discription">
+                <img
+                  src="./images/portfolio3_3.jpg"
+                  alt="Ręce na laptopie z otwartą stroną internetową"
+                  width="370"
+                  height="294"
+                />
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Tenetur, velit quam nostrum repudiandae harum quidem
+                  reprehenderit? Suscipit, incidunt. Hic sit porro eveniet vitae
+                  aperiam quas eligendi accusantium minima, quos perferendis.
+                </p>
+              </div>
+              <h2 class="h2-pf-section">Growing Business</h2>
+              <p>Aplikacja</p>
+            </li>
+          </ul>
+        </div>
+      </section>
+    </main>
+
+    <!--Stopka-->
+    <footer class="page-footer">
+      <div class="page-footer__container container">
+        <!--Lewa część-->
+        <div>
+          <div class="page-footer__home-link">
+            <a class="home-link home-link--footer" href="./index.html"
+              ><span class="home-link__blue">Web</span>Studio</a
+            >
+          </div>
+
+          <!--Adres i linki w stopce-->
+          <ul class="page-footer__footer-contacts footer-contacts">
+            <li>
+              <a
+                class="footer-contacts__address"
+                href="https://goo.gl/maps/Dz4RchG2dV1VJyud7"
+                target="_blank"
+                rel="noopener noreferrer nofollow"
+                >m. Warszawa, Aleje Jerozolimskie 21</a
+              >
+            </li>
+            <li>
+              <a class="footer-contacts__mail" href="mailto:info@devstudio.com"
+                >info@devstudio.com</a
+              >
+            </li>
+            <li>
+              <a class="footer-contacts__phone" href="tel:+48111111111"
+                >+48 111 111 111</a
+              >
+            </li>
+          </ul>
+        </div>
+        <!--Środkowa część-->
+        <div class="page-footer__sm-links sm-links">
+          <h5>DOŁĄCZ DO NAS</h5>
+          <div class="sm-links__list">
+            <a
+              href="https://www.instagram.com/"
+              target="_blank"
+              rel="noopener noreferrer nofollow"
+            >
+              <div class="sm-links__circle-footer">
+                <svg
+                  class="sm-links__sm-icon-footer"
+                  width="20px"
+                  height="20px"
+                >
+                  <use href="./images/icons.svg#icon-instagram"></use>
+                </svg>
+              </div>
+            </a>
+            <a
+              href="https://www.twitter.com/"
+              target="_blank"
+              rel="noopener noreferrer nofollow"
+            >
+              <div class="sm-links__circle-footer">
+                <svg
+                  class="sm-links__sm-icon-footer"
+                  width="20px"
+                  height="20px"
+                >
+                  <use href="./images/icons.svg#icon-twitter"></use>
+                </svg>
+              </div>
+            </a>
+            <a
+              href="https://www.facebook.com/"
+              target="_blank"
+              rel="noopener noreferrer nofollow"
+            >
+              <div class="sm-links__circle-footer">
+                <svg
+                  class="sm-links__sm-icon-footer"
+                  width="20px"
+                  height="20px"
+                >
+                  <use href="./images/icons.svg#icon-facebook"></use>
+                </svg>
+              </div>
+            </a>
+            <a
+              href="https://www.linkedin.com/"
+              target="_blank"
+              rel="noopener noreferrer nofollow"
+            >
+              <div class="sm-links__circle-footer">
+                <svg
+                  class="sm-links__sm-icon-footer"
+                  width="20px"
+                  height="20px"
+                >
+                  <use href="./images/icons.svg#icon-linkedin"></use>
+                </svg>
+              </div>
+            </a>
+          </div>
+        </div>
+        <!--Prawa strona-->
+        <div class="page-footer__singup-form singup-form">
+          <p>ZAPISZ SIĘ DO NEWSLETERA</p>
+          <form action="#" name="singup_form">
+            <input
+              class="singup-form__singup-input"
+              type="email"
+              name="email"
+              placeholder="E-mail"
+              required
+            />
+            <button type="submit">Zapisz się</button>
+            <svg class="icon-send">
+              <use href="./images/icons.svg#icon-iconsend"></use>
+            </svg>
+          </form>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

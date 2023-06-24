@@ -1,0 +1,46 @@
+// Czwarta sekcja
+.four-section {
+  max-width: 1600px;
+  display: flex;
+  justify-content: center;
+  padding: 94px 0 94px 0;
+  background-color: var(--almost-white);
+}
+
+.h2-four-section {
+  text-align: center;
+  margin-bottom: 50px;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.1666em;
+  letter-spacing: 0.03em;
+  color: var(--almost-black);
+
+  &:hover {
+    text-decoration: underline solid var(--blue);
+  }
+}
+
+.four-section-logo-list {
+  max-width: 1200px;
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 0;
+  gap: 30px;
+  margin-bottom: 50px;
+}
+
+.four-section-logo {
+  width: 170px;
+  height: 92px;
+  background: var(--light-gray);
+  fill: var(--border-clients);
+  border: 1px solid var(--border-clients);
+  border-radius: 4px;
+
+  &:hover {
+    fill: var(--blue);
+  }
+}
